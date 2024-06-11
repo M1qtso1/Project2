@@ -258,11 +258,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1309853761:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -270,9 +274,9 @@
               "Title": "ClassroomsTest.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\ClassroomsTest.cs",
               "RelativeDocumentMoniker": "University.Tests\\ClassroomsTest.cs",
-              "ToolTip": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\ClassroomsTest.cs*",
-              "RelativeToolTip": "University.Tests\\ClassroomsTest.cs*",
-              "ViewState": "AQIAAJ0AAAAAAAAAAAAqwLgAAAAFAAAA",
+              "ToolTip": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\ClassroomsTest.cs",
+              "RelativeToolTip": "University.Tests\\ClassroomsTest.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwFkBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T22:00:50.44Z",
               "EditorCaption": ""
@@ -364,10 +368,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T11:33:09.924Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

@@ -1,9 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using University.Data;
 using University.Interfaces;
+using University.Models;
 using University.Services;
 using University.ViewModels;
 
@@ -181,6 +184,177 @@ public class ClassroomsTest
             // No classroom to delete as no ID is provided
             bool classroomExists = context.Classrooms.Any(c => c.ClassroomId == 1 || c.ClassroomId == 2);
             Assert.IsTrue(classroomExists);
+        }
+    }
+    [TestMethod]
+    public void Edit_classroom_with_valid_data()
+    {
+        using UniversityContext context = new UniversityContext(_options);
+        {
+            var classroom = context.Classrooms.FirstOrDefault(c => c.ClassroomId == 1);
+            Assert.IsNotNull(classroom);
+
+            EditClassroomViewModel editClassroomViewModel = new EditClassroomViewModel(context, _dialogService)
+            {
+                ClassroomId = classroom.ClassroomId,
+                Location = "Building A, Room 102",
+                Capacity = 35,
+                AvailableSeats = 35,
+                Projector = false,
+                Whiteboard = false,
+                Microphone = false,
+                Description = "An updated classroom description."
+            };
+            editClassroomViewModel.Save.Execute(null);
+
+            var updatedClassroom = context.Classrooms.FirstOrDefault(c => c.ClassroomId == 1);
+            Assert.IsNotNull(updatedClassroom);
+            Assert.AreEqual("Building A, Room 102", updatedClassroom.Location);
+            Assert.AreEqual(35, updatedClassroom.Capacity);
+            Assert.AreEqual(35, updatedClassroom.AvailableSeats);
+            Assert.IsFalse(updatedClassroom.Projector);
+            Assert.IsFalse(updatedClassroom.Whiteboard);
+            Assert.IsFalse(updatedClassroom.Microphone);
+            Assert.AreEqual("An updated classroom description.", updatedClassroom.Description);
+        }
+    }
+
+    [TestMethod]
+    public void Edit_classroom_with_invalid_data()
+    {
+        using UniversityContext context = new UniversityContext(_options);
+        {
+            var classroom = context.Classrooms.FirstOrDefault(c => c.ClassroomId == 1);
+            Assert.IsNotNull(classroom);
+
+            EditClassroomViewModel editClassroomViewModel = new EditClassroomViewModel(context, _dialogService)
+            {
+                ClassroomId = classroom.ClassroomId,
+                Location = "",
+                Capacity = -1,
+                AvailableSeats = -1,
+                Projector = false,
+                Whiteboard = false,
+                Microphone = false,
+                Description = ""
+            };
+
+            try
+            {
+                editClassroomViewModel.Save.Execute(null);
+            }
+            catch (Exception ex)
+            {
+                // Expected exception due to invalid data
+                Assert.IsInstanceOfType(ex, typeof(DbUpdateException));
+            }
+
+            var updatedClassroom = context.Classrooms.FirstOrDefault(c => c.ClassroomId == 1);
+            Assert.IsNotNull(updatedClassroom);
+            Assert.AreNotEqual("", updatedClassroom.Location);
+            Assert.AreNotEqual(-1, updatedClassroom.Capacity);
+            Assert.AreNotEqual(-1, updatedClassroom.AvailableSeats);
+            Assert.AreNotEqual("", updatedClassroom.Description);
+        }
+    }
+    [TestClass]
+    public class ClassroomValidationTests
+    {
+        private List<ValidationResult> ValidateClassroom(Classroom classroom)
+        {
+            var results = new List<ValidationResult>();
+            var context = new ValidationContext(classroom);
+            Validator.TryValidateObject(classroom, context, results, true);
+            return results;
+        }
+
+        [TestMethod]
+        public void Validate_ValidClassroom()
+        {
+            var classroom = new Classroom
+            {
+                Location = "Building A, Room 101",
+                Capacity = 30,
+                AvailableSeats = 30,
+                Projector = true,
+                Whiteboard = true,
+                Microphone = true,
+                Description = "A spacious classroom with modern amenities."
+            };
+
+            var results = ValidateClassroom(classroom);
+            Assert.AreEqual(0, results.Count);
+        }
+
+        [TestMethod]
+        public void Validate_ClassroomWithoutLocation()
+        {
+            var classroom = new Classroom
+            {
+                Capacity = 30,
+                AvailableSeats = 30,
+                Projector = true,
+                Whiteboard = true,
+                Microphone = true,
+                Description = "A spacious classroom with modern amenities."
+            };
+
+            var results = ValidateClassroom(classroom);
+            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Location is required"));
+        }
+
+        [TestMethod]
+        public void Validate_ClassroomWithNegativeCapacity()
+        {
+            var classroom = new Classroom
+            {
+                Location = "Building A, Room 101",
+                Capacity = -5,
+                AvailableSeats = 30,
+                Projector = true,
+                Whiteboard = true,
+                Microphone = true,
+                Description = "A spacious classroom with modern amenities."
+            };
+
+            var results = ValidateClassroom(classroom);
+            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Capacity must be greater than 0"));
+        }
+
+        [TestMethod]
+        public void Validate_ClassroomWithNegativeAvailableSeats()
+        {
+            var classroom = new Classroom
+            {
+                Location = "Building A, Room 101",
+                Capacity = 30,
+                AvailableSeats = -5,
+                Projector = true,
+                Whiteboard = true,
+                Microphone = true,
+                Description = "A spacious classroom with modern amenities."
+            };
+
+            var results = ValidateClassroom(classroom);
+            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Available Seats cannot be negative"));
+        }
+
+        [TestMethod]
+        public void Validate_ClassroomWithoutDescription()
+        {
+            var classroom = new Classroom
+            {
+                Location = "Building A, Room 101",
+                Capacity = 30,
+                AvailableSeats = 30,
+                Projector = true,
+                Whiteboard = true,
+                Microphone = true,
+                Description = ""
+            };
+
+            var results = ValidateClassroom(classroom);
+            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Description is required"));
         }
     }
 }
