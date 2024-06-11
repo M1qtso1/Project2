@@ -1,0 +1,12 @@
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\bin\Debug\net6.0\University.Extensions.deps.json
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\bin\Debug\net6.0\University.Extensions.dll
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\bin\Debug\net6.0\University.Extensions.pdb
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\University.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\University.Extensions.AssemblyInfoInputs.cache
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\University.Extensions.AssemblyInfo.cs
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\University.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\University.Extensions.sourcelink.json
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\University.Extensions.dll
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\refint\University.Extensions.dll
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\University.Extensions.pdb
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Extensions\obj\Debug\net6.0\ref\University.Extensions.dll

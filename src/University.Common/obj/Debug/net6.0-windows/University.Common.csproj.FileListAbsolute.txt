@@ -1,0 +1,15 @@
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\bin\Debug\net6.0-windows\University.Common.deps.json
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\bin\Debug\net6.0-windows\University.Common.runtimeconfig.json
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\bin\Debug\net6.0-windows\University.Common.dll
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\bin\Debug\net6.0-windows\University.Common.pdb
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.csproj.AssemblyReference.cache
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.AssemblyInfoInputs.cache
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.AssemblyInfo.cs
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.csproj.CoreCompileInputs.cache
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.sourcelink.json
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.dll
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\refint\University.Common.dll
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.pdb
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\University.Common.genruntimeconfig.cache
+C:\Users\USER1\source\repos\AdvancedProgramming2\src\University.Common\obj\Debug\net6.0-windows\ref\University.Common.dll
