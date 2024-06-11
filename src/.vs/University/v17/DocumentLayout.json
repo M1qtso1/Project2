@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D92B782-1580-4DC5-9370-740A07EAA3AE}|University.Tests\\University.Tests.csproj|c:\\users\\user1\\source\\repos\\advancedprogramming2\\src\\university.tests\\bookstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D92B782-1580-4DC5-9370-740A07EAA3AE}|University.Tests\\University.Tests.csproj|solutionrelative:university.tests\\bookstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D92B782-1580-4DC5-9370-740A07EAA3AE}|University.Tests\\University.Tests.csproj|c:\\users\\user1\\source\\repos\\advancedprogramming2\\src\\university.tests\\classroomstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D92B782-1580-4DC5-9370-740A07EAA3AE}|University.Tests\\University.Tests.csproj|solutionrelative:university.tests\\classroomstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -258,11 +262,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1309853761:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksTest.cs",
+              "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\BooksTest.cs",
+              "RelativeDocumentMoniker": "University.Tests\\BooksTest.cs",
+              "ToolTip": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\BooksTest.cs",
+              "RelativeToolTip": "University.Tests\\BooksTest.cs",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAiwO8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T23:05:57.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -270,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClassroomsTest.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\ClassroomsTest.cs",
               "RelativeDocumentMoniker": "University.Tests\\ClassroomsTest.cs",
@@ -283,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "University.Tests",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\University.Tests.csproj",
               "RelativeDocumentMoniker": "University.Tests\\University.Tests.csproj",
@@ -296,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IDialogService.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Interfaces\\IDialogService.cs",
               "RelativeDocumentMoniker": "University.Interfaces\\IDialogService.cs",
@@ -309,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Main\\App.xaml",
               "RelativeDocumentMoniker": "University.Main\\App.xaml",
@@ -321,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Main\\MainWindow.xaml",
               "RelativeDocumentMoniker": "University.Main\\MainWindow.xaml",
@@ -333,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddClassroomView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\AddClassroomView.xaml",
               "RelativeDocumentMoniker": "University.Views\\AddClassroomView.xaml",
@@ -345,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentsTest.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Tests\\StudentsTest.cs",
               "RelativeDocumentMoniker": "University.Tests\\StudentsTest.cs",
@@ -358,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AddClassroomViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\AddClassroomViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\AddClassroomViewModel.cs",
@@ -371,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AddStudentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\AddStudentViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\AddStudentViewModel.cs",
@@ -384,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Common\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "University.Common\\ViewModelBase.cs",
@@ -397,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Validators.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Common\\Validators.cs",
               "RelativeDocumentMoniker": "University.Common\\Validators.cs",
@@ -410,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StringExtensions.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Extensions\\StringExtensions.cs",
               "RelativeDocumentMoniker": "University.Extensions\\StringExtensions.cs",
@@ -423,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DialogResult.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Common\\DialogResult.cs",
               "RelativeDocumentMoniker": "University.Common\\DialogResult.cs",
@@ -436,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UniversityContext.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Data\\UniversityContext.cs",
               "RelativeDocumentMoniker": "University.Data\\UniversityContext.cs",
@@ -449,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TextBoxes.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Controls\\TextBoxes.xaml",
               "RelativeDocumentMoniker": "University.Controls\\TextBoxes.xaml",
@@ -461,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TextBlocks.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Controls\\TextBlocks.xaml",
               "RelativeDocumentMoniker": "University.Controls\\TextBlocks.xaml",
@@ -473,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TabControls.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Controls\\TabControls.xaml",
               "RelativeDocumentMoniker": "University.Controls\\TabControls.xaml",
@@ -485,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ListViews.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Controls\\ListViews.xaml",
               "RelativeDocumentMoniker": "University.Controls\\ListViews.xaml",
@@ -497,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ConfirmationDialog.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Controls\\ConfirmationDialog.xaml",
               "RelativeDocumentMoniker": "University.Controls\\ConfirmationDialog.xaml",
@@ -509,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Buttons.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Controls\\Buttons.xaml",
               "RelativeDocumentMoniker": "University.Controls\\Buttons.xaml",
@@ -521,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SubjectsView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\SubjectsView.xaml",
               "RelativeDocumentMoniker": "University.Views\\SubjectsView.xaml",
@@ -533,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "StudentsView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\StudentsView.xaml",
               "RelativeDocumentMoniker": "University.Views\\StudentsView.xaml",
@@ -545,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "SharedResources.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\SharedResources.xaml",
               "RelativeDocumentMoniker": "University.Views\\SharedResources.xaml",
@@ -557,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SearchView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\SearchView.xaml",
               "RelativeDocumentMoniker": "University.Views\\SearchView.xaml",
@@ -569,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "EditSubjectView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\EditSubjectView.xaml",
               "RelativeDocumentMoniker": "University.Views\\EditSubjectView.xaml",
@@ -581,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "EditStudentView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\EditStudentView.xaml",
               "RelativeDocumentMoniker": "University.Views\\EditStudentView.xaml",
@@ -593,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EditClassroomView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\EditClassroomView.xaml",
               "RelativeDocumentMoniker": "University.Views\\EditClassroomView.xaml",
@@ -605,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "EditBookView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\EditBookView.xaml",
               "RelativeDocumentMoniker": "University.Views\\EditBookView.xaml",
@@ -617,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "DataTemplates.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\DataTemplates.xaml",
               "RelativeDocumentMoniker": "University.Views\\DataTemplates.xaml",
@@ -629,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ClassroomView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\ClassroomView.xaml",
               "RelativeDocumentMoniker": "University.Views\\ClassroomView.xaml",
@@ -641,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "BooksView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\BooksView.xaml",
               "RelativeDocumentMoniker": "University.Views\\BooksView.xaml",
@@ -653,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "AddSubjectView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\AddSubjectView.xaml",
               "RelativeDocumentMoniker": "University.Views\\AddSubjectView.xaml",
@@ -665,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "AddStudentView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\AddStudentView.xaml",
               "RelativeDocumentMoniker": "University.Views\\AddStudentView.xaml",
@@ -677,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "AddBookView.xaml",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\AddBookView.xaml",
               "RelativeDocumentMoniker": "University.Views\\AddBookView.xaml",
@@ -689,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "SearchView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\SearchView.xaml.cs",
               "RelativeDocumentMoniker": "University.Views\\SearchView.xaml.cs",
@@ -702,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "AddClassroomView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\AddClassroomView.xaml.cs",
               "RelativeDocumentMoniker": "University.Views\\AddClassroomView.xaml.cs",
@@ -715,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "EditClassroomView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\EditClassroomView.xaml.cs",
               "RelativeDocumentMoniker": "University.Views\\EditClassroomView.xaml.cs",
@@ -728,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ClassroomViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\ClassroomViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\ClassroomViewModel.cs",
@@ -741,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ClassroomView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\ClassroomView.xaml.cs",
               "RelativeDocumentMoniker": "University.Views\\ClassroomView.xaml.cs",
@@ -754,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Main\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "University.Main\\MainWindow.xaml.cs",
@@ -767,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\MainWindowViewModel.cs",
@@ -779,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\ViewModelBase.cs",
@@ -791,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Models\\Student.cs",
               "RelativeDocumentMoniker": "University.Models\\Student.cs",
@@ -803,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "SearchViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\SearchViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\SearchViewModel.cs",
@@ -815,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Models\\Subject.cs",
               "RelativeDocumentMoniker": "University.Models\\Subject.cs",
@@ -827,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Classroom.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Models\\Classroom.cs",
               "RelativeDocumentMoniker": "University.Models\\Classroom.cs",
@@ -839,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Main\\App.xaml.cs",
               "RelativeDocumentMoniker": "University.Main\\App.xaml.cs",
@@ -851,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Models\\Book.cs",
               "RelativeDocumentMoniker": "University.Models\\Book.cs",
@@ -863,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "BooksView.g.i.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\obj\\Debug\\net6.0-windows\\BooksView.g.i.cs",
               "RelativeDocumentMoniker": "University.Views\\obj\\Debug\\net6.0-windows\\BooksView.g.i.cs",
@@ -875,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "BooksView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\BooksView.xaml.cs",
               "RelativeDocumentMoniker": "University.Views\\BooksView.xaml.cs",
@@ -887,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "AddStudentView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\AddStudentView.xaml.cs",
               "RelativeDocumentMoniker": "University.Views\\AddStudentView.xaml.cs",
@@ -899,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "EditBookViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\EditBookViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\EditBookViewModel.cs",
@@ -911,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "AddSubjectViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\AddSubjectViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\AddSubjectViewModel.cs",
@@ -923,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "StudentsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\StudentsViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\StudentsViewModel.cs",
@@ -935,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "EditSubjectViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\EditSubjectViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\EditSubjectViewModel.cs",
@@ -947,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Main\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "University.Main\\AssemblyInfo.cs",
@@ -959,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "EditClassroomViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\EditClassroomViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\EditClassroomViewModel.cs",
@@ -971,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "BooksViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\BooksViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\BooksViewModel.cs",
@@ -983,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "AddBookViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\AddBookViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\AddBookViewModel.cs",
@@ -995,7 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "EditStudentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.ViewModels\\EditStudentViewModel.cs",
               "RelativeDocumentMoniker": "University.ViewModels\\EditStudentViewModel.cs",
@@ -1007,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "DialogService.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Services\\DialogService.cs",
               "RelativeDocumentMoniker": "University.Services\\DialogService.cs",
@@ -1019,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "AddBookView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER1\\source\\repos\\AdvancedProgramming2\\src\\University.Views\\AddBookView.xaml.cs",
               "RelativeDocumentMoniker": "University.Views\\AddBookView.xaml.cs",
