@@ -141,7 +141,43 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
             OnPropertyChanged(nameof(AssignedStudents));
         }
     }
+    private ObservableCollection<Book>? _availableBooks = null;
+    public ObservableCollection<Book> AvailableBooks
+    {
+        get
+        {
+            if (_availableBooks is null)
+            {
+                _availableBooks = LoadBooks();
+                return _availableBooks;
+            }
+            return _availableBooks;
+        }
+        set
+        {
+            _availableBooks = value;
+            OnPropertyChanged(nameof(AvailableBooks));
+        }
+    }
 
+    private ObservableCollection<Book>? _assignedBooks = null;
+    public ObservableCollection<Book> AssignedBooks
+    {
+        get
+        {
+            if (_assignedBooks is null)
+            {
+                _assignedBooks = new ObservableCollection<Book>();
+                return _assignedBooks;
+            }
+            return _assignedBooks;
+        }
+        set
+        {
+            _assignedBooks = value;
+            OnPropertyChanged(nameof(AssignedBooks));
+        }
+    }
     private ICommand? _back = null;
     public ICommand Back
     {
@@ -176,7 +212,6 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
             return _add;
         }
     }
-
     private void AddStudent(object? obj)
     {
         if (obj is Student student)
@@ -189,7 +224,29 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
             AssignedStudents.Add(student);
         }
     }
+    private ICommand? _addBook = null;
+    public ICommand AddBook
+    {
+        get
+        {
+            if (_addBook is null)
+            {
+                _addBook = new RelayCommand<object>(AddBooks);
+            }
+            return _addBook;
+        }
+    }
+    private void AddBooks(object? obj)
+    {
+        if (obj is Book book)
+        {
 
+            if (!AssignedBooks.Contains(book))
+            {
+                AssignedBooks.Add(book);
+            }
+        }
+    }
     private ICommand? _remove = null;
     public ICommand Remove
     {
@@ -210,7 +267,25 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
             AssignedStudents.Remove(student);
         }
     }
-
+    private ICommand? _removeBook = null;
+    public ICommand RemoveBook
+    {
+        get
+        {
+            if (_removeBook is null)
+            {
+                _removeBook = new RelayCommand<object>(RemoveBooks);
+            }
+            return _removeBook;
+        }
+    }
+    private void RemoveBooks(object? obj)
+    {
+        if (obj is Book book)
+        {
+            AssignedBooks.Remove(book);
+        }
+    }
     private ICommand? _save = null;
     public ICommand Save
     {
@@ -237,7 +312,8 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
             Name = this.Name,
             Semester = this.Semester,
             Lecturer = this.Lecturer,
-            Students = AssignedStudents
+            Students = AssignedStudents,
+            Books = AssignedBooks
         };
 
         _context.Subjects.Add(subject);
@@ -258,7 +334,12 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
         _context.Students.Load();
         return _context.Students.Local.ToObservableCollection();
     }
-
+    private ObservableCollection<Book> LoadBooks()
+    {
+        _context.Database.EnsureCreated();
+        _context.Books.Load();
+        return _context.Books.Local.ToObservableCollection();
+    }
     private bool IsValid()
     {
         string[] properties = { "Name", "Semester", "Lecturer" };

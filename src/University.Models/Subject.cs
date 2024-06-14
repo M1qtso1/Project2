@@ -11,5 +11,6 @@ namespace University.Models
         public string Lecturer { get; set; } = string.Empty;
         public bool IsSelected { get; set; } = false;
         public virtual ICollection<Student>? Students { get; set; } = null;
+        public virtual ICollection<Book>? Books { get; set; }
     }
 }

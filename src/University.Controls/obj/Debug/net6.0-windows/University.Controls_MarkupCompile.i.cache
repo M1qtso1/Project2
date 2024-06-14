@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 240-1255230027
 Buttons.xaml;ConfirmationDialog.xaml;ListViews.xaml;TabControls.xaml;TextBlocks.xaml;TextBoxes.xaml;
 
-False
+True
 

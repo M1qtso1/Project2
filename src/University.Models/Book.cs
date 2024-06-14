@@ -14,6 +14,7 @@ namespace University.Models
         public string Description { get; set; } = string.Empty;
         public string Language { get; set; } = string.Empty;
         public int PageCount { get; set; }
-        public bool IsSelected { get; set; } = false;
+        public bool IsSelected { get; set; } = false; 
+        public virtual ICollection<Subject>? Subjects { get; set; }
     }
 }
