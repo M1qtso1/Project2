@@ -213,10 +213,12 @@ namespace University.ViewModels
             if (!IsValid())
             {Response = "Please complete all required fields"; return; }         if (_book is not null)
             {_book.Title = Title ;_book.Author = Author; _book.Publisher = Publisher; _book.PublicationDate = PublicationDate;
-                _book.ISBN = ISBN;                  _book.Genre = Genre;
-                                            _book.Description = Description; 
-                                                                                                                                                                        _book.Language = Language;
-                _book.PageCount = PageCount                                                                             ; _context.Entry(_book).State = EntityState.Modified;
+                _book.ISBN = ISBN;                  
+                _book.Genre = Genre;
+                _book.Description = Description;                                                                                                       
+                _book.Language = Language;
+                _book.PageCount = PageCount; 
+                _context.Entry(_book).State = EntityState.Modified;
                 _context.SaveChanges();
 
                 Response = "Data Updated";

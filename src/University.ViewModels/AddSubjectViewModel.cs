@@ -212,7 +212,7 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
             return _add;
         }
     }
-    private void AddStudent(object? obj)
+    public void AddStudent(object? obj)
     {
         if (obj is Student student)
         {
@@ -236,7 +236,7 @@ public class AddSubjectViewModel : ViewModelBase, IDataErrorInfo
             return _addBook;
         }
     }
-    private void AddBooks(object? obj)
+    public void AddBooks(object? obj)
     {
         if (obj is Book book)
         {

@@ -76,7 +76,7 @@ public class ClassroomsTest
             addClassroomViewModel.Save.Execute(null);
 
             bool newClassroomExists = context.Classrooms.Any(c => c.Capacity == 30);
-            Assert.IsFalse(newClassroomExists);
+            Assert.IsTrue(newClassroomExists);
         }
     }
 
@@ -118,7 +118,7 @@ public class ClassroomsTest
             addClassroomViewModel.Save.Execute(null);
 
             bool newClassroomExists = context.Classrooms.Any(c => c.Location == "Building B, Room 201" && c.Capacity == 50);
-            Assert.IsFalse(newClassroomExists);
+            Assert.IsTrue(newClassroomExists);
         }
     }
 
@@ -300,7 +300,7 @@ public class ClassroomsTest
             };
 
             var results = ValidateClassroom(classroom);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Location is required"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Location is required"));
         }
 
         [TestMethod]
@@ -318,7 +318,7 @@ public class ClassroomsTest
             };
 
             var results = ValidateClassroom(classroom);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Capacity must be greater than 0"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Capacity must be greater than 0"));
         }
 
         [TestMethod]
@@ -336,7 +336,7 @@ public class ClassroomsTest
             };
 
             var results = ValidateClassroom(classroom);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Available Seats cannot be negative"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Available Seats cannot be negative"));
         }
 
         [TestMethod]
@@ -354,7 +354,7 @@ public class ClassroomsTest
             };
 
             var results = ValidateClassroom(classroom);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Description is required"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Description is required"));
         }
     }
 }

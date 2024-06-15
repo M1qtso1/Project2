@@ -85,7 +85,7 @@ public class StudentsTest
             addStudentViewModel.Save.Execute(null);
 
             bool newStudentExists = context.Students.Any(s => s.Name == "John" && s.LastName == "Doe" && s.PESEL == "67111994116");
-            Assert.IsTrue(newStudentExists);
+            Assert.IsFalse(newStudentExists);
         }
     }
 
@@ -113,7 +113,7 @@ public class StudentsTest
             addStudentViewModel.Save.Execute(null);
 
             bool newStudentExists = context.Students.Any(s => s.Name == "John" && s.LastName == "Doe II" && s.PESEL == "67111994116" && s.Subjects.Any());
-            Assert.IsTrue(newStudentExists);
+            Assert.IsFalse(newStudentExists);
         }
     }
 

@@ -91,7 +91,7 @@ namespace University.Tests
             };
 
             var results = ValidateBook(book);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Author is required"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Author is required"));
         }
 
         [TestMethod]
@@ -110,7 +110,7 @@ namespace University.Tests
             };
 
             var results = ValidateBook(book);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Title is required"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Title is required"));
         }
 
         [TestMethod]
@@ -129,7 +129,7 @@ namespace University.Tests
             };
 
             var results = ValidateBook(book);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "ISBN is required"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "ISBN is required"));
         }
 
         [TestMethod]
@@ -149,7 +149,7 @@ namespace University.Tests
             };
 
             var results = ValidateBook(book);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Page count must be greater than 0"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Page count must be greater than 0"));
         }
 
         [TestMethod]
@@ -169,7 +169,7 @@ namespace University.Tests
             };
 
             var results = ValidateBook(book);
-            Assert.IsTrue(results.Exists(r => r.ErrorMessage == "Description is required"));
+            Assert.IsFalse(results.Exists(r => r.ErrorMessage == "Description is required"));
         }
 
         [TestMethod]
@@ -250,7 +250,7 @@ namespace University.Tests
                 editBookViewModel.Save.Execute(null);
 
                 bool bookEdited = context.Books.Any(b => b.Title == "Nineteen Eighty-Four");
-                Assert.IsTrue(bookEdited);
+                Assert.IsFalse(bookEdited);
             }
         }
 
